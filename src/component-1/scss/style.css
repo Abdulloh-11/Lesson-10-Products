@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+}
+.app .app_menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgb(52, 53, 104);
+  width: 18%;
+  height: 100vh;
+}
+.app .app_routes {
+  width: 82%;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.product {
+  padding: 20px 50px;
+}
+.product .product_boxs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product .product_boxs .product_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #9eced4;
+  border-radius: 5px;
+}
+.product .product_boxs .product_card h4 {
+  color: rgb(99, 99, 90);
+}
+.product .product_boxs .product_card h4 span {
+  color: black;
+}
+.product .product_boxs .product_card .descr {
+  color: rgb(99, 99, 90);
+}
+.product .product_boxs .product_card .descr span {
+  color: black;
+}
+
+.container .brand {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.container .brand .brand_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(154, 154, 154, 0.6039215686);
+  border-radius: 5px;
+  padding: 25px;
+  width: 30%;
+  height: 200px;
+}
+.container .brand .brand_box h4 {
+  color: rgb(99, 99, 90);
+}
+.container .brand .brand_box h4 span {
+  color: black;
+}
+
+.container .model {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.container .model .model_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #9eced4;
+  padding: 25px;
+  box-shadow: 5px 5px 5px #cdacac;
+  width: 30%;
+  height: 200px;
+}
+.container .model .model_box h4 {
+  color: rgb(99, 99, 90);
+}
+.container .model .model_box h4 span {
+  color: black;
+}/*# sourceMappingURL=style.css.map */

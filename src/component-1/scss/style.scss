@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// ====Product====//
+// app.jsx
+.app {
+    display: flex;
+    width: 100%;
+
+    .app_menu {
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: rgb(52, 53, 104);
+        width: 18%;
+        height: 100vh;
+    }
+
+    .app_routes {
+        width: 82%;
+    }
+}
+
+// menu 
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+// product_card
+.product {
+    padding: 20px 50px;
+
+    .product_boxs {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .product_card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 300px;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #9eced4;
+            border-radius: 5px;
+            
+
+            h4 {
+                color: rgb(99, 99, 90);
+
+                span {
+                    color: black;
+                }
+            }
+
+            .descr {
+                color: rgb(99, 99, 90);
+
+                span {
+                    color: black;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+// ====Brand=== //
+.container {
+    .brand {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+
+        .brand_box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background: #9a9a9a9a;
+            border-radius: 5px;
+            padding: 25px;
+          
+            width: 30%;
+            height: 200px;
+
+            h4 {
+                color: rgb(99, 99, 90);
+
+                span {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+// model 
+.container {
+    .model {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+
+        .model_box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background: #9eced4;
+            padding: 25px;
+            box-shadow: 5px 5px 5px #cdacac;
+            width: 30%;
+            height: 200px;
+
+            h4 {
+                color: rgb(99, 99, 90);
+
+                span {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+

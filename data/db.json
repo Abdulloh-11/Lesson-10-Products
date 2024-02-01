@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "name": "Phone 15 pro",
+      "price": "$150",
+      "brands": "Apple",
+      "models": "Pods",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "id": "1"
+    },
+    {
+      "name": "Phone 15 pro",
+      "price": "$150",
+      "brands": "Apple",
+      "models": "Pods",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "id": "1"
+    },
+    {
+      "name": "Phone 15 pro",
+      "price": "$150",
+      "brands": "Apple",
+      "models": "Pods",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "id": "1"
+    },
+    {
+      "name": "Phone 15 pro",
+      "price": "$150",
+      "brands": "Apple",
+      "models": "Pods",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "id": "1"
+    }
+  ],
+  "brands": [
+    {
+      "title": "asus",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "apple"
+    },
+    {
+      "id": "3",
+      "title": "hp"
+    }
+   
+  ],
+  "models": [
+    {
+      "id": "1",
+      "title": "Smartphone"
+    },
+    {
+      "id": "2",
+      "title": "Laptop"
+    }
+    
+
+  ]
+}
